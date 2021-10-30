@@ -1,0 +1,44 @@
+<h4 style="text-align: center; font-size: xx-large; font-weight: bolder; color: brown;">Welcome {{username}} !!</h4>
+<div class="container">
+    <div class="image">
+        <img src="../../assets/signup-img.jpg" alt="" height="400px" width="400px">
+    </div>
+<div class="centered-div">
+
+<p>Online Learning Portal</p>
+<br>
+<form #form1 = 'ngForm'>
+    <label for="name">Enter your name: </label><br>
+<input type="text" ngModel name="user" id="user" placeholder="Enter your Full name" style="color: black;" required />
+<br><br>
+<label for="email">Enter your email:</label><br>
+<input type="email" name="email" id="email" ngModel placeholder="Enter the email address" style="color: black;" required/><br>
+<br>
+ 
+<label for="age">Enter your Age :</label><br>
+
+<input type="number" name="age" id="age" placeholder="Enter age" style="color: black;" required ngModel >
+<br><br>
+
+
+    <label for="course">Course :</label><br>
+    
+        <select name="coursechosen" id="coursechosen">
+            <option value="choose" ></option>
+            <option id="course" ngModel name="course" value="deep learning">Campus-Deep Learning</option>
+            <option id="course" ngModel name="course" value="Data structure and algorithm"> Campus- Data structure and algorithm</option>
+            <option id="course" ngModel name="course" value="Verilog">Campus -Verilog Basics</option>
+            <option id="course" ngModel name="course" value="Python for everybody">Online - Python for everybody </option>
+            <option id="course" ngModel name="course" value="digital Marketing">Online - Digital Marketing</option>
+            <option id="course" ngModel name="course" value="Django for professionals">Online - Django for Professionals</option>
+
+            
+        </select>
+    
+
+<br><br>
+<input type="button" name="btn1" id="btn1" value="Register" class="btn" [disabled]='!form1.valid' (click)='log(form1)'>
+<br><br>
+</form>
+</div>
+</div>

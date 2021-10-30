@@ -1,0 +1,55 @@
+.left
+{
+    width: 1000px; 
+    float:left; 
+    height:1000px; 
+    
+   
+}
+.right
+{
+    float:left;
+    margin-left: 110px;
+    width: 190px; 
+}
+#frm
+{
+    background-color: black;
+    color: whitesmoke;
+   text-align: center; 
+}
+#submit
+{
+    background-color: silver;
+    color: black;
+}
+.data
+{
+    margin:3px;
+    text-align: left;
+    padding:3px;
+}
+div#img
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+
+}
+div#top
+{
+    float: left;
+   
+}
+div.blue
+{
+    color:blue;
+    text-align: left;
+}
+div.second
+{
+    color: blue;
+    text-align: left;
+
+}

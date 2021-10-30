@@ -1,0 +1,62 @@
+#btn1
+{
+    background-color: blue;
+    color: yellow;
+}
+#btn1:hover
+{
+    background-color: white;
+    color: blue;
+}
+.image
+{
+    float: left;
+    width: 50%;
+}
+    
+    .centered-div {
+    width: 50%;
+    height: auto;
+    margin-left: 39%;
+    padding: 5px;
+    border-radius: 6px;
+    background:rgb(13, 14, 68);
+    color : white;
+    text-align : center;
+    float:right;
+    position: absolute;
+    }
+    p{
+    font-size : 25px;
+    }
+    .btn{
+    background-color:rgb(153, 183, 190); /* Green */
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    width : 80px;
+    border-radius: 10px;
+    
+    }
+    .container
+    {
+        margin-bottom: 40px;
+    }
+    .left
+    {
+        text-align: left;
+    }
+    .course
+    {
+        align-items: center;
+    }
+    option#course
+    {
+        background-color: black;
+        color: snow;
+    }

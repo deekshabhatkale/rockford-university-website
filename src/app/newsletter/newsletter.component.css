@@ -1,0 +1,18 @@
+.left
+{
+    width: 100%; 
+     
+     
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+.data
+{
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+
+}
